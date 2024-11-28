@@ -40,9 +40,8 @@ export const Weather = ({ weather }) => {
                         {  weather.weather[0].description }
                     </p>
                     <img 
-                        src={ `https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png` } 
-                        alt="no-img"
-                        className="icon"
+                        src={ `http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png` } 
+                        alt="icon"
                     />
                 </div>
             </div>
